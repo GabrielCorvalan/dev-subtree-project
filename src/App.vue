@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <DevSubtreeLibrarySample />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import DevSubtreeLibrarySample from 'dev-subtree-library/src/lib-components/dev-subtree-library-sample.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    DevSubtreeLibrarySample
   }
 }
 </script>
